@@ -272,6 +272,8 @@ table.tricks td { color: var(--text); }
   color: var(--text-strong); text-decoration: none; white-space: nowrap;
 }
 .brand .sq { width: 10px; height: 10px; background: var(--red); flex: 0 0 auto; }
+.brand .bhmark { height: 26px; width: auto; flex: 0 0 auto; }
+.bhfoot { display: block; height: 54px; width: auto; margin: 0 auto 18px; opacity: .92; }
 .menulinks { display: flex; align-items: center; gap: 2px; }
 .menulinks a {
   font-family: var(--font-label); font-weight: 700;
@@ -370,7 +372,7 @@ footer a { color: var(--red); }
 <body>
 <input type="checkbox" id="menuToggle" class="menu-toggle" tabindex="-1" aria-hidden="true">
 <nav class="menubar" aria-label="Site">
-  <a class="brand" href="#top"><span class="sq" aria-hidden="true"></span>WINTER INTENSIVE</a>
+  <a class="brand" href="#top"><img class="bhmark" src="bh.png" alt="BH.">WINTER INTENSIVE</a>
   <div class="menulinks">
     <a href="#week1">Week 1</a>
     <a href="#week2">Week 2</a>
@@ -385,7 +387,7 @@ footer a { color: var(--red); }
 </nav>
 <div class="menuoverlay" id="menuoverlay" aria-hidden="true">
   <div class="obar">
-    <span class="brand"><span class="sq" aria-hidden="true"></span>WINTER INTENSIVE</span>
+    <span class="brand"><img class="bhmark" src="bh.png" alt="BH.">WINTER INTENSIVE</span>
     <label for="menuToggle" class="menuclose" aria-label="Close menu">&#215;</label>
   </div>
   <nav aria-label="Weeks">
@@ -1322,6 +1324,7 @@ footer a { color: var(--red); }
 </section>
 
 <footer>
+  <img class="bhfoot" src="bh.png" alt="BH.">
   <p>Sources: idl.pro official results pages, Dance Mogul Magazine IDL 2026 Season Dashboard, Wikipedia "International Dance League" (citing idl.pro), IDL official YouTube channel (@idl.global), team Instagram accounts (@team.1milliondance, @unlvrgandco, @hillsidevisuals, @udadance, @varsityspirit), TikTok (@universeofdance), unlvrebels.com, cheerunion.org, usacheer.org, FloCheer, sportsgirlsclub.com, 1079vgs.com. Songs marked UNCERTAIN could not be verified from available sources. Second camera angles were matched only where the title and uploader clearly indicated the same performance; uncertain matches are labeled as such.</p>
   <p>Built for offline training reference. Videos stream from YouTube, Instagram, and TikTok at full quality.</p>
 </footer>
